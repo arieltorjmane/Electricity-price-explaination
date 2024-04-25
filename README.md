@@ -13,15 +13,22 @@ Three CSV file datasets are provided: training inputs X train, training outputs 
 
 ## 2.1 Input Data
 Input datasets comprise 35 columns, including:
+
 • ID: Unique row identifier, associated with a day and a country.
+
 • DAY ID: Day identifier.
+
 • COUNTRY: Country identifier - DE = Germany, FR = France.
+
 • Weather measures: Temperature, Rainfall, Wind, etc.
+
 • Energy production measures: Natural gas, Hard coal, Hydro reser- voir, etc.
-1
+
 • Electricity use metrics: Total electricity consumption, Residual load, Net import/export, etc.
 
 ## 2.2 Output Data
 Output datasets are composed of two columns:
+
 • ID: Unique row identifier - corresponding to the input identifiers.
+
 • TARGET: Daily price variation for futures of 24H electricity baseload.
